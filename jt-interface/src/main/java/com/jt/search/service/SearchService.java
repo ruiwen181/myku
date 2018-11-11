@@ -6,5 +6,6 @@ import com.jt.search.pojo.Item;
 
 public interface SearchService {
 	List<Item> findItemByKey(String key);
+	void find();
 }
 
